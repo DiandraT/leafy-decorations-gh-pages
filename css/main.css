@@ -6,7 +6,7 @@ html {
   background-image: url("../images/leaf-bg.svg");
   background-color: #588477;
   border: 3px solid #2d5a4d;
-  background-size: 64px;
+  background-size: 64px auto;
 }
 
 h1 {
@@ -19,7 +19,6 @@ h1 {
 
 .nav {
   text-align: center;
-  color: #fff;
 }
 
 .nav a {
@@ -32,24 +31,27 @@ h1 {
 
 .nav a:hover {
   background-color: #fff;
+  background-size: 64px auto;
   background-image: url("../images/leaf-icon.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  color: #145b1d;
+  background-repeat: repeat-y;
+  background-position: .75em;
+  color: #467366;
 }
 
 .banner {
-  background: url("../images/banner.jpg");
+  background-image: linear-gradient(rgba(16, 52, 41, 0), rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
   background-size: cover;
-  background-position: center;
-  padding-top: 15em;
+  background-position: center bottom;
+  border-bottom: 3px solid #145b1d;
 }
 
 .banner-content {
   color: #fff;
+  padding-top: 300px;
   background-image: url("../images/two-leaves.svg");
-  background-size: 6em;
+  background-position: left center;
   background-repeat: no-repeat;
+  background-size: 100px auto;
 }
 
 @media only screen and (min-width: 60em) {
