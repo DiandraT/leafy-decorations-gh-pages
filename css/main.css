@@ -1,0 +1,65 @@
+html {
+  font-family: Lora, serif;
+}
+
+.masthead {
+  background-image: url("../images/leaf-bg.svg");
+  background-color: #588477;
+  border: 3px solid #2d5a4d;
+  background-size: 64px;
+}
+
+h1 {
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+.nav {
+  text-align: center;
+  color: #fff;
+}
+
+.nav a {
+  text-decoration: none;
+  background-color: #467366;
+  border: 3px solid #2d5a4d;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #145b1d;
+}
+
+.banner {
+  background: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 15em;
+}
+
+.banner-content {
+  color: #fff;
+  background-image: url("../images/two-leaves.svg");
+  background-size: 6em;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
